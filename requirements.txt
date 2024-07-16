@@ -1,0 +1,26 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+applicationinsights
+shareplum
+requests
+Office365-REST-Python-Client
+seaborn
+pandas
+scispacy
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz
+spacy
+tensorflow 
+ipykernel
+numpy
+git+https://github.com/faustomorales/keras-ocr.git#egg=keras-ocr
+keras-ocr
+PyMuPDF
+python-environ
+xlrd 
+assemblyai
+moviepy
+
