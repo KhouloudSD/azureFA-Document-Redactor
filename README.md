@@ -4,17 +4,20 @@ This repository contains the source code for an Intelligent Document Redaction p
 
 Redaction Capabilities
 
-* Sensitive Information Redaction: Identifies and obscures sensitive information in images, PDFs, text files, and MP4 videos.
-    Image Redaction: Uses Optical Character Recognition (OCR) to detect and redact sensitive text in images.
-    PDF Redaction: Extracts and redacts sensitive data from PDF documents.
-    Text File Redaction: Detects and obscures sensitive information in text files using natural language processing (NLP).
-    Video Redaction: Redacts sensitive audio information in MP4 videos.
+Sensitive Information Redaction: Identifies and obscures sensitive information in images, PDFs, text files, and MP4 videos:
 
-HTTP Trigger Function
+    * Image Redaction: Uses Optical Character Recognition (OCR) to detect and redact sensitive text in images.
+    * PDF Redaction: Extracts and redacts sensitive data from PDF documents.
+    * Text File Redaction: Detects and obscures sensitive information in text files using natural language processing (NLP).
+    * Video Redaction: Redacts sensitive audio information in MP4 videos.
+
+HTTP Trigger Function :
+
     A Python Azure Function to process HTTP requests for document indexing and redaction.
     Extracts documents from SharePoint, processes them, and uploads the modified files back to SharePoint.
   
-Technologies Used
+Technologies Used:
+
     Azure Functions: Serverless compute service.
     SharePoint API: For accessing and modifying SharePoint documents.
     Keras OCR: Optical Character Recognition (OCR) for image processing.
